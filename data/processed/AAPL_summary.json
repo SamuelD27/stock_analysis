@@ -1,0 +1,64 @@
+{
+  "ticker": "AAPL",
+  "descriptive_stats": {
+    "mean_daily_return": 0.0007427205419431748,
+    "median_daily_return": 0.0011568288269685478,
+    "std_daily_return": 0.020464322516690597,
+    "variance_daily_return": 0.00041878849606712977,
+    "mean_annual_return": 0.18716557656968005,
+    "std_annual_return": 0.32486104877149663,
+    "skewness": 1.0898559531202887,
+    "excess_kurtosis": 14.09195392702723,
+    "sharpe_ratio": 0.5761404061135383,
+    "sortino_ratio": 0.7836071323926397,
+    "min_return": -0.09245620080797823,
+    "max_return": 0.1532885769098551,
+    "positive_days_pct": 53.81526104417671,
+    "negative_days_pct": 45.78313253012048
+  },
+  "risk_metrics": {
+    "var_95": -0.031732865432893435,
+    "cvar_95": -0.045472276056531764,
+    "var_99": -0.049175669182560555,
+    "cvar_99": -0.07172059925350438,
+    "max_drawdown": -0.3336052208070358,
+    "avg_drawdown": -0.12744990823015484,
+    "current_drawdown": -0.00032444410864821137
+  },
+  "autocorrelation": {
+    "autocorr_lag1": 0.03131498674937066,
+    "autocorr_lag5": -0.10248615538684099,
+    "autocorr_lag10": -0.06849303938868388,
+    "ljungbox_returns_pvalue": 0.06787679386758881,
+    "ljungbox_squared_pvalue": 2.582441856033793e-06,
+    "has_momentum": 0.0,
+    "has_volatility_clustering": 1.0
+  },
+  "normality_tests": {
+    "jarque_bera_stat": 2020.6710512355633,
+    "jarque_bera_pvalue": 0.0,
+    "is_normal_jb": 0.0,
+    "shapiro_wilk_stat": 0.8578884532695487,
+    "shapiro_wilk_pvalue": 2.171384920214581e-14,
+    "ks_stat": 0.10616067047919259,
+    "ks_pvalue": 0.006741653190421166
+  },
+  "corporate_actions": {
+    "num_dividends": 88,
+    "total_dividends": 9.543564,
+    "avg_dividend": 0.10844959090909091,
+    "num_splits": 5
+  },
+  "liquidity": {
+    "avg_daily_volume": 53820708.4,
+    "median_daily_volume": 47127450.0,
+    "volume_std": 23329015.719815336,
+    "avg_dollar_volume": 11928412345.984148
+  },
+  "company_info": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": 3829117222912,
+    "company_name": "Apple Inc."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tickers": [
+    "AAPL"
+  ],
+  "start": null,
+  "end": null,
+  "interval": "1d",
+  "fetch_date": "2025-10-04T17:50:58.307013",
+  "num_tickers": 1,
+  "date_range_actual": {
+    "start": "2024-10-04",
+    "end": "2025-10-03",
+    "num_periods": 250
+  }
+}
